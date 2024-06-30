@@ -36,6 +36,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="parallaxstyle.css" />
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -44,10 +45,23 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
-    <div id="top"></div>
+    <div id="top">
+      <!-- 1 -->
+
+      <!-- 2 -->
+      <!-- <div class="wrapper">
+        <span></span>
+      </div> -->
+    </div>
+
+    <div class="loading-box" id="loading-box">
+      <div class="loading-circle">
+        <p class="loading-count">Loading...</p>
+      </div>
+    </div>
 
     <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
+    <!-- <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Ashok Choudhary</span>
@@ -60,7 +74,206 @@
           >
         </p>
       </div>
-    </section>
+    </section> -->
+
+    <main class="main-parallax">
+      <div class="vignette"></div>
+      <img
+        src="img/background.webp"
+        data-speedy="0.38"
+        data-speedx="0.3"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="-200"
+        class="parallax bg-img"
+        alt="bg"
+      />
+      <img
+        src="img/fog_7.webp"
+        data-speedy="0.32"
+        data-speedx="0.27"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="850"
+        class="parallax fog-7"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_10.webp"
+        data-speedy="0.32"
+        data-speedx="0.195"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="1100"
+        class="parallax mountain-10"
+        alt="bg"
+      />
+      <img
+        src="img/fog_6.webp"
+        data-speedy="0.28"
+        data-speedx="0.25"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="1400"
+        class="parallax fog-6"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_9.webp"
+        data-speedy="0.155"
+        data-speedx="0.125"
+        data-speedz="0.15"
+        data-rotation="0.02"
+        data-distance="1700"
+        class="parallax mountain-9"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_8.webp"
+        data-speedy="0.11"
+        data-speedx="0.1"
+        data-speedz="0.02"
+        data-rotation="0"
+        data-distance="1800"
+        class="parallax mountain-8"
+        alt="bg"
+      />
+      <img
+        src="img/fog_5.webp"
+        data-speedy="0.105"
+        data-speedx="0.16"
+        data-speedz="0.09"
+        data-rotation="0"
+        data-distance="1900"
+        class="parallax fog-5"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_7.webp"
+        data-speedy="0.1"
+        data-speedx="0.1"
+        data-speedz="0"
+        data-rotation="0.09"
+        data-distance="2000"
+        class="parallax mountain-7"
+        alt="bg"
+      />
+      <div
+        class="text parallax"
+        data-speedy="0.07"
+        data-speedx="0.07"
+        data-speedz="0"
+        data-rotation="0.11"
+        data-distance="0"
+      >
+        <h1>
+          Hi, I am <br />
+          <span class="text-color-main">Ashok Choudhary</span>
+        </h1>
+      </div>
+      <img
+        src="img/mountain_6.webp"
+        data-speedy="0.05"
+        data-speedx="0.065"
+        data-speedz="0.05"
+        data-rotation="0.12"
+        data-distance="2300"
+        class="parallax mountain-6"
+        alt="bg"
+      />
+      <img
+        src="img/fog_4.webp"
+        data-speedy="0.04"
+        data-speedx="0.135"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="2400"
+        class="parallax fog_4"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_5.webp"
+        data-speedy="0.03"
+        data-speedx="0.08"
+        data-speedz="0.13"
+        data-rotation="0.1"
+        data-distance="2550"
+        class="parallax mountain-5"
+        alt="bg"
+      />
+      <img
+        src="img/fog_3.webp"
+        data-speedy="0.018"
+        data-speedx="0.11"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="2800"
+        class="parallax fog-3"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_4.webp"
+        data-speedy="0.024"
+        data-speedx="0.059"
+        data-speedz="0.35"
+        data-rotation="0.14"
+        data-distance="3200"
+        class="parallax mountain-4"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_3.webp"
+        data-speedy="0.018"
+        data-speedx="0.04"
+        data-speedz="0.32"
+        data-rotation="0.05"
+        data-distance="3400"
+        class="parallax mountain-3"
+        alt="bg"
+      />
+      <img
+        src="img/fog_2.webp"
+        data-speedy="0.0115"
+        data-speedx="0.15"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="3600"
+        class="parallax fog-2"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_2.webp"
+        data-speedy="0.013"
+        data-speedx="0.0235"
+        data-speedz="0.42"
+        data-rotation="0.15"
+        data-distance="3800"
+        class="parallax mountain-2"
+        alt="bg"
+      />
+      <img
+        src="img/mountain_1.webp"
+        data-speedy="0.018"
+        data-speedx="0.027"
+        data-speedz="0.53"
+        data-rotation="0.20"
+        class="parallax mountain-1"
+        data-distance="4000"
+        alt="bg"
+      />
+      <img src="img/sun_rays.webp" class="sun-rays hide" alt="bg" />
+      <img src="img/black_shadow.webp" class="black-shadow hide" alt="bg" />
+      <img
+        src="img/fog_1.webp"
+        data-speedy="0.01"
+        data-speedx="0.12"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="4200"
+        class="parallax fog-1"
+        alt="bg"
+      />
+    </main>
     <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
@@ -486,5 +699,7 @@
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script defer src="js/app.js"></script>
   </body>
 </html>
